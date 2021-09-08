@@ -1,10 +1,23 @@
 # Weather-Journal App Project
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This simple dynamic project get the user weather data for a certain Zip code & country code, ask him about his current feeling and show them in a layout (Most Recent entry).
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+It uses Open weather Weather API 
+to get data and save them to a local server and then get them again to be laid out. 
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+
+## Table of Contents
+Form with two inputs to enter zip & feeling
+and a button to Generate
+
+## Project Preview
+![preview](Screenshot_1.png)
+
+
+## Dependencies
+
+Node.js Enviroment  v14.17.5
+
+    1- Express 
+    2- Body Parser 
+    3- CORS
